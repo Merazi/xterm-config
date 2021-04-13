@@ -1,0 +1,23 @@
+#+TITLE: XTerm configuration
+#+AUTHOR: Merazi
+
+* What is this?
+This is my configuration file for xterm, the standard x11 terminal emulator.
+
+* Why is this?
+I don't want to lose it.
+
+* How do I use this?
+You can copy =Xresources= to =~/.Xresources= and load it with the command =xrdb ~/.Xresources=. You can also do a symbolic link from the =Xresources= file, to =~/.Xresources= with the command =ln -s xterm-config/Xresources ~/.Xresources= and load it the same way as before (=xrdb ~/.Xresources=).
+
+* What makes this configuration file special?
++ It is mine.
++ It has Ctrl+Shift+c for copy and Ctrl+Shift+v for paste.
++ It has Ctrl++ for increasing the font size and Ctrl+- for decreasing it.
++ It uses a nice Monoespaced font.
++ The cursor blinks.
++ The bell is actually urgent.
+
+* TODO
++ [ ] Improve the font increase and decrease.
++ [ ] Think of more stuff to add to the TODO list.

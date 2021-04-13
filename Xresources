@@ -1,0 +1,35 @@
+! XTerm configuration file
+! by Merazi
+! April 6, 2021
+
+XTerm.vt100.faceName: Monospace
+XTerm.vt100.faceSize: 10
+
+XTerm.*.cursorBlink: true
+XTerm.*.loginShell: true
+
+XTerm.vt100.geometry: 80x30
+
+! improve colors
+XTerm.vt100.colorMode:  on
+XTerm.vt100.dynamicColors:  on
+
+! colors
+XTerm.vt100.foreground: gray
+XTerm.vt100.background: black
+
+! copy & paste like the gnome shell
+XTerm.vt100.translations: #override \n\
+Ctrl Shift <Key>C: copy-selection(CLIPBOARD) \n\
+Ctrl Shift <Key>V: insert-selection(CLIPBOARD) \n\
+Ctrl <Key>minus: smaller-vt-font() \n\
+Ctrl <Key>plus: larger-vt-font()
+
+! make the alt key behave normally
+XTerm.vt100.metaSendsEscape: true
+
+! scrollback history
+XTerm.vt100.saveLines: 4096
+
+! give xterm a voice
+XTerm.vt100.bellIsUrgent: true
