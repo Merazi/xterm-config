@@ -2,7 +2,7 @@
 ! by Merazi
 ! April 6, 2021
 
-XTerm.vt100.faceName: Monospace
+XTerm.vt100.faceName: Liberation Mono
 XTerm.vt100.faceSize: 10
 
 XTerm.*.cursorBlink: true
