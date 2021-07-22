@@ -1,12 +1,12 @@
-! XTerm configuration file
+! XTerm.vt100 configuration file
 ! by Merazi
 ! April 6, 2021
 
-XTerm.vt100.faceName: DejaVu Sans Mono
+XTerm.vt100.faceName: Ubuntu Mono
 XTerm.vt100.faceSize: 12
 
-XTerm.*.cursorBlink: true
-XTerm.*.loginShell: false
+XTerm.vt100.cursorBlink: true
+XTerm.vt100.loginShell: false
 
 XTerm.vt100.geometry: 80x30
 
@@ -16,6 +16,9 @@ XTerm.vt100.dynamicColors:  on
 
 ! colors
 XTerm.vt100.foreground: gray
+!XTerm.vt100.background: black
+
+! ubuntu color scheme
 XTerm.vt100.background: #300a24
 XTerm.vt100.color0:     #2e3436
 XTerm.vt100.color8:     #888A85
@@ -35,7 +38,7 @@ XTerm.vt100.color7:     #d3d7cf
 XTerm.vt100.color15:    #eeeeec
 
 ! copy & paste like the gnome shell
-XTerm.vt100.translations: #override \n\
+XTerm.*.translations: #override \n\
 Ctrl Shift <Key>C: copy-selection(CLIPBOARD) \n\
 Ctrl Shift <Key>V: insert-selection(CLIPBOARD) \n\
 Ctrl <Key>minus: smaller-vt-font() \n\
@@ -45,7 +48,7 @@ Ctrl <Key>plus: larger-vt-font()
 XTerm.vt100.metaSendsEscape: true
 
 ! scrollback history
-XTerm.vt100.saveLines: 4096
+XTerm.saveLines: 4096
 
 ! give xterm a voice
-XTerm.vt100.bellIsUrgent: true
+XTerm.bellIsUrgent: true
