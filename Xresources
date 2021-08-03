@@ -2,8 +2,8 @@
 ! by Merazi
 ! April 6, 2021
 
-XTerm.vt100.faceName: Ubuntu Mono
-XTerm.vt100.faceSize: 12
+!XTerm.vt100.faceName: Ubuntu Mono
+!XTerm.vt100.faceSize: 12
 
 XTerm.vt100.cursorBlink: true
 XTerm.vt100.loginShell: false
@@ -16,26 +16,26 @@ XTerm.vt100.dynamicColors:  on
 
 ! colors
 XTerm.vt100.foreground: gray
-!XTerm.vt100.background: black
+XTerm.vt100.background: black
 
 ! ubuntu color scheme
-XTerm.vt100.background: #300a24
-XTerm.vt100.color0:     #2e3436
-XTerm.vt100.color8:     #888A85
-XTerm.vt100.color1:     #cc0000
-XTerm.vt100.color9:     #ef2929
-XTerm.vt100.color2:     #4e9a06
-XTerm.vt100.color10:    #8ae234
-XTerm.vt100.color3:     #edd400
-XTerm.vt100.color11:    #fce94f
-XTerm.vt100.color4:     #3465a4
-XTerm.vt100.color12:    #729fcf
-XTerm.vt100.color5:     #92659a
-XTerm.vt100.color13:    #c19fbe
-XTerm.vt100.color6:     #07c7ca
-XTerm.vt100.color14:    #63e9e9
-XTerm.vt100.color7:     #d3d7cf
-XTerm.vt100.color15:    #eeeeec
+! XTerm.vt100.background: #300a24
+! XTerm.vt100.color0:     #2e3436
+! XTerm.vt100.color8:     #888A85
+! XTerm.vt100.color1:     #cc0000
+! XTerm.vt100.color9:     #ef2929
+! XTerm.vt100.color2:     #4e9a06
+! XTerm.vt100.color10:    #8ae234
+! XTerm.vt100.color3:     #edd400
+! XTerm.vt100.color11:    #fce94f
+! XTerm.vt100.color4:     #3465a4
+! XTerm.vt100.color12:    #729fcf
+! XTerm.vt100.color5:     #92659a
+! XTerm.vt100.color13:    #c19fbe
+! XTerm.vt100.color6:     #07c7ca
+! XTerm.vt100.color14:    #63e9e9
+! XTerm.vt100.color7:     #d3d7cf
+! XTerm.vt100.color15:    #eeeeec
 
 ! copy & paste like the gnome shell
 XTerm.*.translations: #override \n\
