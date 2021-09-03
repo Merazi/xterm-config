@@ -2,8 +2,8 @@
 ! by Merazi
 ! April 6, 2021
 
-!XTerm.vt100.faceName: FreeMono
-!XTerm.vt100.faceSize: 10
+XTerm.vt100.faceName: Cascadia Code
+XTerm.vt100.faceSize: 10
 
 XTerm.vt100.cursorBlink: true
 XTerm.vt100.loginShell: false
