@@ -2,15 +2,18 @@
 ! by Merazi
 ! April 6, 2021
 
+XTerm.vt100.faceName: Cascadia Code
+XTerm.vt100.faceSize: 10
+
 XTerm.vt100.cursorBlink: true
 XTerm.vt100.loginShell: true
 
 XTerm.vt100.geometry: 80x30
 
-XTerm.*.scrollBar: true
+! XTerm.*.scrollBar: true
 
 ! colors
-XTerm.vt100.foreground: grey
+XTerm.vt100.foreground: gray
 XTerm.vt100.background: black
 
 ! copy & paste like the gnome shell
