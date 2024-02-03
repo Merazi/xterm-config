@@ -2,20 +2,18 @@
 ! by Merazi
 ! April 6, 2021
 
-XTerm.vt100.faceName: Cascadia Code PL
-XTerm.vt100.faceSize: 10
+XTerm.vt100.faceName: Terminus
+XTerm.vt100.faceSize: 13
 
 XTerm.vt100.cursorBlink: true
 XTerm.vt100.loginShell: true
 
+XTerm.vt100.backarrowKey: false
+XTerm.ttyModes: erase ^?
+
 XTerm.vt100.geometry: 80x30
 XTerm.*.fullscreen: never
-
 ! XTerm.*.scrollBar: true
-
-! colors
-XTerm.vt100.foreground: green
-XTerm.vt100.background: black
 
 ! copy & paste like the gnome shell
 XTerm.*.translations: #override \n\
@@ -33,3 +31,6 @@ XTerm.saveLines: 4096
 ! silence please
 XTerm.bellIsUrgent: false
 XTerm*visualBell: True
+
+XTerm*.foreground: gray
+XTerm*.background: black
