@@ -2,7 +2,7 @@
 ! by Merazi
 ! April 6, 2021
 
-XTerm.vt100.faceName: Terminus
+XTerm.vt100.faceName: Hack Nerd Font
 XTerm.vt100.faceSize: 13
 
 XTerm.vt100.cursorBlink: true
@@ -30,7 +30,7 @@ XTerm.saveLines: 4096
 
 ! silence please
 XTerm.bellIsUrgent: false
-XTerm*visualBell: True
+XTerm*visualBell: false
 
-XTerm*.foreground: gray
+XTerm*.foreground: white
 XTerm*.background: black
